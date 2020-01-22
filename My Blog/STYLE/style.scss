@@ -1,0 +1,316 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%
+}
+body{
+    color: #000;
+    font-size: 15px;
+    font-family: Verdana,sans-serif;
+    background-color: #f1f1f1;
+}
+body, h1, h2, h3, h4, h5{
+    font-family: "Raleway", sans-serif;
+}
+.headercontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.div-1{
+    text-align: center;
+    margin-top: 45px;
+}
+.my-block{
+    font-weight: 400;
+    font-size: 36px;
+}
+.div-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.div-3{
+    margin-left: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: #000;
+    line-height: 1.5;
+}
+.p-2{
+    color: white;
+}
+.maincontainer{
+    margin-top: 65px;
+    display: grid;
+    grid-template-columns: 8fr 4fr;
+    grid-gap: 30px;
+    grid-template-areas: 
+    'principal derecha';
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.principal{
+    grid-area: principal;
+}
+.div-tittle-heading{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.img-tittle{
+    width: 100%;
+    height: auto;
+}
+.derecha{
+    grid-area: derecha;
+}
+.h3-heading{
+    font-weight: bolder;
+    font-size: 24px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.div-description{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.p-description{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Raleway", sans-serif;
+}
+.p-april{
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 5px;
+    opacity: 0.60;
+    font-family: "Raleway", sans-serif;
+}
+.div-p-3{
+    margin-left: 15px;
+    margin-top: 30px;
+    margin-right: 15px;
+}
+.div-bottom{
+    margin-top: 35px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.buttons{
+    overflow: hidden;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.button1{
+    border: 1px solid #ccc;
+    padding: 12px 24px;
+    background-color: white;
+    &:hover{
+        background-color: #ccc;
+    }
+}
+.p-read-more{
+    font-size: 14px;
+    text-align: center;
+    color: black;
+    font-weight: 400;
+}
+.div-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 24px;
+}
+.div-cuadrado{
+    margin-left: 10px;
+    padding: 2px 8px;
+    text-align: center;
+    background-color: #000;
+}
+.p{
+    color: white;
+}
+.div-blog-entry{
+    margin-top: 40px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.div-circulo{
+    border-radius: 50%;
+    padding: 2px 7px;
+    text-align: center;
+}
+.div-my-name{
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.img-name{
+    width: 100%;
+    height: auto;
+}
+.h4-my-name{
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.p-my-name{
+    margin-top: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
+    padding-bottom: 15px;
+}
+.div-popular-post{
+    margin-top: 40px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.post{
+    padding: 8px 15px;
+    background-color: #f1f1f1;
+}
+.p-post{
+    margin: 10px 0px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Raleway", sans-serif;
+}
+.div-magic{
+    padding: 8px 15px;
+    border-bottom: 1px solid #ddd;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    display: flex;
+    flex-direction: row;
+    &:hover{
+        background-color: #ccc;
+    }
+}
+.img-magic{
+    width: 50px;
+}
+.div-parrafos{
+    margin-left: 20px;
+}
+.p-p-1{
+    font-size: 18px;
+}
+.p-p-2{
+    margin-top: 5px;
+}
+.div-tag{
+    background-color: #fff;
+    margin-top: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.span-travel{
+    background-color: #000;
+    color: #fff;
+    display: inline-block;
+    margin-bottom: 16px;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+}
+.div-p-5{
+    margin-left: 15px;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+.span-all{
+    font-size: 12px;
+    margin-bottom: 16px;
+    display: inline-block;
+    background-color: #f1f1f1;
+    color: #000;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+}
+.footercontainer{
+    margin-top: 55px;
+    height: 180px;
+    background-color: #616161;
+    color: #fff;
+}
+.div-footer-button{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 35px;
+    display: flex;
+    flex-direction: row;
+}
+.button-1{
+    padding: 12px 24px;
+    cursor: not-allowed;
+    opacity: 0.3;
+    background-color: black;
+    color: white;
+    &:hover{
+        background-color: #ccc;
+        color: black;
+    }
+}
+.p-button-1{
+    font-size: 16px;
+    font-weight: 400;
+}
+.button-2{
+    padding: 12px 24px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    margin-left: 5px;
+    &:hover{
+        background-color: #ccc;
+        color: black;
+    }
+}
+.div-ancla{
+    margin-top: 35px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.ancla{
+    margin-left: 5px;
+    color: white;
+    display: block;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 990px){
+    .maincontainer{
+        display: grid;
+        grid-template-columns: 12fr;
+        grid-template-rows: repeat(2, auto);
+        row-gap: 40px;
+        grid-template-areas: 
+        'principal'
+        'derecha';
+    }
+    .principal{
+        grid-area: principal;
+    }
+    .derecha{
+        grid-area: derecha;
+    }
+}
